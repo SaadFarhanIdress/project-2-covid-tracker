@@ -33,7 +33,7 @@ class App extends React.Component {
         <Chart data={data} country={country} />
         <p className="credit" style={{textAlign: 'center'}}>Made with <img className="image" width="20" height="20" alt="Heart" src="https://cdn.iconscout.com/icon/free/png-256/heart-1767836-1502416.png" /> by <a href="www.github.com/SaadFarhanIdress">Saad Farhan</a>
       <br />
-      Don't forget to star my repository :) <br />Link: <a href="https://github.com/SaadFarhanIdress/project-2-covid-tracker">https://github.com/SaadFarhanIdress/project-2-covid-tracker</a></p>
+      Don't forget to sta my repository :) <br />Link: <a href="https://github.com/SaadFarhanIdress/project-2-covid-tracker">https://github.com/SaadFarhanIdress/project-2-covid-tracker</a></p>
         </div>
     );
   }
