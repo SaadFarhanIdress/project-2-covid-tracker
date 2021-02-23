@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    font-family: 'Fraunces', serif;
+}
+
+@media (max-width: 770px) {
+    .container{
+        margin: 0 10%;
+    }
+    .image{
+        width: 100%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');

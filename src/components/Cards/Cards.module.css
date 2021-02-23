@@ -1,0 +1,47 @@
+.container{
+    margin: 50px 0;
+}
+
+.card{
+    margin: 0 2% !important;
+    font-family: 'Fraunces', serif;
+}
+
+.infected{ 
+    background-image: url(../../image/background.png);
+    border: solid 1px #91612f;
+    font-family: 'Fraunces', serif;
+    border-radius: 10px;
+    color: #91612f;
+    border-bottom: 10px solid blue;
+}
+
+.deaths{
+    color: #91612f;
+    background-image: url(../../image/background.png);
+    border: solid 1px #91612f;
+    border-radius: 10px;
+    border-bottom: 10px solid red;
+    font-family: 'Fraunces', serif;
+}
+
+.recovered{  
+    color: #91612f;
+    font-family: 'Fraunces', serif;
+    background-image: url(../../image/background.png);
+    border: solid 1px #91612f;
+    border-radius: 10px;
+    border-bottom: 10px solid greenyellow;
+}
+.typo{
+    font-family: 'Fraunces', serif !important;
+    color: #91612f !important;
+}
+
+@media (max-width: 770px) {
+    .card{
+        margin: 2% 0 !important;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');

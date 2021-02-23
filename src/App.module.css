@@ -1,0 +1,32 @@
+body{
+    background-image: url(../src/image/background.png);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Fraunces', serif;
+}
+
+.image{
+    width: 370px;
+    margin-top: 50px;
+}
+
+@media (max-width: 770px) {
+    .container{
+        margin: 0 10%;
+    }
+    .image{
+        width: 100%;
+    }
+}
+*{
+    color: #91612f;
+    font-family: 'Fraunces', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+

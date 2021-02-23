@@ -1,0 +1,15 @@
+.formControl{
+    width: 30%;
+    margin-bottom: 30px !important;
+    color: #91612f;
+    background-image: url(../../image/background.png);
+    font-family: 'Fraunces', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+.select{
+    color: #91612f  !important;
+    background-image: url(../../image/background.png);
+    font-family: 'Fraunces', serif  !important;
+}
