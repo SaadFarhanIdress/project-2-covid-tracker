@@ -28,8 +28,10 @@ class App extends React.Component {
     return (
       <div className={styles.container}>
         <img className={styles.image} src={bannerImage} alt='COVID-19' />
+        <p className={styles.typo} style={{textAlign: 'center'}, {fontSize: 25}}>Tracker By Saad Farhan</p>
         <Cards data={data} /><br />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
+        <p className={styles.typo} style={{textAlign: 'center'}}>If you are on a mobile, please rotate the screen to see the chart clearly...</p>
         <Chart data={data} country={country} />
         <p className={styles.typo} style={{textAlign: 'center'}}>Made with <img className="image" width="20" height="20" alt="Heart" src="https://cdn.iconscout.com/icon/free/png-256/heart-1767836-1502416.png" /> by <a href="http://www.github.com/SaadFarhanIdress">Saad Farhan</a>
       <br />
