@@ -14,7 +14,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.infected)}>
                     <CardContent>
                         <Typography className={styles.typo} color="textSecondary" gutterBottom>Infected</Typography>
-                        <Typography variant="h5">
+                        <Typography variant="h5" className={styles.typo}>
                             <CountUp start={0} duration={2.5} end={confirmed.value} separator=',' />
                         </Typography>
                         <Typography className={styles.typo} variant="body2">Number Of Active Cases Of COVID-19.</Typography>
@@ -24,7 +24,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.recovered)}>
                     <CardContent>
                         <Typography  className={styles.typo}  color="textSecondary" gutterBottom>Recoveries</Typography>
-                        <Typography variant="h5">
+                        <Typography variant="h5" className={styles.typo}>
                             <CountUp start={0} duration={2.5} end={recovered.value} separator=',' />
                         </Typography>
                         <Typography  className={styles.typo}  variant="body2">Number Of Recovered Cases Of COVID-19.</Typography>
@@ -34,7 +34,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.deaths)}>
                     <CardContent>
                         <Typography  className={styles.typo}  color="textSecondary" gutterBottom>Infected</Typography>
-                        <Typography variant="h5">
+                        <Typography variant="h5" className={styles.typo}>
                             <CountUp start={0} duration={2.5} end={deaths.value} separator=',' />
                         </Typography>
                         <Typography  className={styles.typo} variant="body2">Number Of Deaths From COVID-19.</Typography>

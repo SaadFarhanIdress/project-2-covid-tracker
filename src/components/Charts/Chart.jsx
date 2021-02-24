@@ -53,7 +53,7 @@ export const Chart = ({ data: { confirmed, deaths, recovered }, country }) => {
                             'green',
                             'red',
                         ],
-                        data: [confirmed.value, recovered.value, deaths.value]
+                        data: [confirmed.value, recovered.value, deaths.value],
                     }]
                 }}
                 option={{
