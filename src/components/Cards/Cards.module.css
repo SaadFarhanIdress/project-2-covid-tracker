@@ -1,10 +1,10 @@
 .container{
-    margin: 50px 0;
+    margin: 50px 0 !important;
 }
 
 .card{
     margin: 0 2% !important;
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', serif!important;
 }
 
 .infected{ 

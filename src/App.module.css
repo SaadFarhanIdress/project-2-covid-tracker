@@ -26,3 +26,13 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
 
+.typo{
+    font-family: 'Fraunces', serif !important;
+    color: #91612f !important;
+    text-align: center;
+}
+
+.typo a {
+    color: #91612f !important;
+    text-decoration: underline;
+}
