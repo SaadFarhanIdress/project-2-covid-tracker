@@ -1,3 +1,17 @@
+# COVID-19 Tracker by me
+
+In this app, you can see the statistics of your own choosen country or you can also see global stats.
+
+# Surge link
+
+[https://covid-tracker-by-saad-farhan.surge.sh](https://covid-tracker-by-saad-farhan.surge.sh)
+
+# Things you should do
+
+Please star this repository.
+
+# If you want to use it, follow the following scripts:-
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
